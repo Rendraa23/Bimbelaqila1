@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bimbelaqila"
+        tools:targetApi="31">
+        <activity
+            android:name=".harga_privat"
+            android:exported="false" />
+        <activity
+            android:name=".harga_reguler"
+            android:exported="false" />
+        <activity
+            android:name=".harga"
+            android:exported="false" />
+        <activity
+            android:name=".privsmp"
+            android:exported="false" />
+        <activity
+            android:name=".privsd"
+            android:exported="false" />
+        <activity
+            android:name=".privtk"
+            android:exported="false" />
+        <activity
+            android:name=".reqsmp"
+            android:exported="false" />
+        <activity
+            android:name=".reqsd"
+            android:exported="false" />
+        <activity
+            android:name=".reguler_tk"
+            android:exported="false" />
+        <activity
+            android:name=".sma"
+            android:exported="false" />
+        <activity
+            android:name=".smp"
+            android:exported="false" />
+        <activity
+            android:name=".sd"
+            android:exported="false" />
+        <activity
+            android:name=".Tk"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
